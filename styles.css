@@ -1,0 +1,71 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Arial,sans-serif;
+	
+	}
+	
+body{
+	display: flex;
+	justify-content: centre;
+	align-items: center;
+	background: linear-gradient(135deg,#667eea,#764ba2);
+	color: white;
+	text-align: center;
+	
+	}
+.container {
+	text-align: center;
+	background: rgba(0,0,0,0.5);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow:0 0 20px rgba(0, 0, 0 ,0.5);
+	}
+	
+h1 {
+	margin-bottom: 20px;
+	font-size: 2.5em;
+	animation: fadeIn 2s;
+	
+}
+
+.candidate {
+	margin: 20px 0;
+	
+}
+
+button {
+	background: #ff6b6b;
+	border: none;
+	border-radius: 50px;
+	padding: 15px 30px;
+	font-size:1.5em;
+	color:white;
+	cursor: pointer;
+	margin: 10px;
+	transition: background 0.3s,transform 0.3s;
+	box-shadow: 0 5px 15px rgba(0, 0, 0 , 0.3);
+}
+
+button:hover {
+	background: #ff4757;
+	transform: scale(1.1);
+}
+
+#status {
+	margin-top: 20px;
+	font-size: 1.2em;
+	animation: fadeIn 2s;
+}
+
+@keyframes fadeIn{
+	from {
+		opacity:0;
+		}
+	to{
+		opacity:1;
+		}
+	}
+		
+
